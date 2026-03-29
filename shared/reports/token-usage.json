@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-30T05:01:29.155465",
+  "total": {
+    "input": 13144005,
+    "output": 101109,
+    "cacheRead": 7167068,
+    "cacheWrite": 1159167,
+    "totalTokens": 21571349,
+    "turns": 275,
+    "sessions": 4
+  },
+  "by_date": {
+    "2026-03-30": {
+      "input": 11090799,
+      "output": 83839,
+      "cacheRead": 5606779,
+      "cacheWrite": 841544,
+      "totalTokens": 17622961,
+      "turns": 197,
+      "sessions": 3
+    },
+    "2026-03-29": {
+      "input": 2053206,
+      "output": 17270,
+      "cacheRead": 1560289,
+      "cacheWrite": 317623,
+      "totalTokens": 3948388,
+      "turns": 78,
+      "sessions": 1
+    }
+  }
+}

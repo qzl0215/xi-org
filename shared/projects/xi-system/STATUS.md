@@ -1,64 +1,59 @@
 # STATUS.md
 
-# 溪系统 — 项目状态
+# 溪系统 · 状态报告
+
+> 更新时间：2026-03-30 05:25 GMT+8
 
 ---
 
-## 基本状态
+## 系统状态
 
-- **项目 ID**：xi-system
-- **最后更新**：2026-03-30
-- **当前阶段**：搭建期
+| 维度 | 状态 | 说明 |
+|------|------|------|
+| Workspace | ✅ 正常 | ~/srv/xi/，GitHub 双向同步 |
+| 4 Agent 分派 | ✅ 跑通 | Research → Builder → Archivist 链路验证 |
+| Token 统计 | ✅ 建立 | ~/srv/xi/scripts/token-stats.py，每日 cron |
+| 安全政策 | ✅ 补充 | SECURITY + INCIDENT + ONBOARDING |
+| Listing Factory | ✅ Dev 运行 | http://127.0.0.1:3021 |
 
 ---
 
-## 总体状态
+## Token 累计（截至今日）
 
-| 指标 | 状态 |
+| 指标 | 数量 |
 |------|------|
-| 进度 | 🟡 基础搭建完成，分派流程待验证 |
-| 成本 | 🟡 尚未建立基线 |
-| 质量 | 🟢 待验证 |
-| 风险 | 🟡 token 分派成本待评估 |
+| 总输入 | 13,144,005 |
+| 总输出 | 101,109 |
+| 缓存读取 | 7,167,068 |
+| 缓存写入 | 1,159,167 |
+| **总计** | **21,571,349** |
+
+---
+
+## 技能安装建议
+
+| 技能 | 优先级 | 理由 |
+|------|--------|------|
+| `github` | P0 | GitHub PR/issues 管理，日常工作流必需 |
+| `webapp-testing` | P1 | 前端验证，溪需验证页面改动 |
+| 其他 | 暂不安装 | 极简主义 |
+
+**代码执行策略**：Codex/Claude Code 负责写代码，溪负责 orchestration + 治理。不重复造轮子。
 
 ---
 
 ## 本周进展
 
-- 2026-03-30：完成组织架构设计（4 Agent）
-- 2026-03-30：完成 workspace 切换（`~/srv/xi/workspaces/main/`）
-- 2026-03-30：xi-org GitHub 双向同步上线
+- [x] P0 安全政策（SECURITY + INCIDENT + ONBOARDING）
+- [x] P1 token 统计自动化
+- [x] 4 Agent 分派流程验证
+- [x] listing_factory dev server 重启
+- [ ] ONBOARDING 完成
 
 ---
 
-## 下周计划
+## 下一步
 
-- 验证 workspace 切换生效
-- 跑通第一次 4 Agent 分派
-- 建立 token 成本基线
-- 建立第一份 daily memory
-
----
-
-## 阻塞项
-
-| 阻塞问题 | 影响 | 解决方案 | 负责人 |
-|---------|------|---------|-------|
-| workspace 切换是否生效待确认 | 系统无法使用新路径 | 立即验证 | Main |
-| token 基线未建立 | 无法评估分派性价比 | 首次分派任务附带成本记录 | Main |
-
----
-
-## 关键决策记录
-
-| 日期 | 决策 | 理由 |
-|------|------|------|
-| 2026-03-30 | workspace 切换到 ~/srv/xi/workspaces/main/ | 组织资产与运行时状态分离 |
-
----
-
-## 下次复核时间
-
-- 2026-03-31
-
----
+1. 安装 `github` skill（待确认）
+2. 继续 listing_factory MVP（Phase A 页面验收）
+3. 优化 rank.viewtrends.store 增量更新流程
