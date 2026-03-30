@@ -54,6 +54,31 @@
 - `~/srv/xi/` 完全弃用，不再使用
 - 合并后结构：根目录保留溪核心文件（SOUL.md、AGENTS.md 等），workspaces/main/ 是主 workspace，shared/ 是共享资产
 
+### 2026-03-30：服务器基础设施部署
+- 服务器：viewtrends-prod（43.160.239.62），SSH 配置在 ~/.ssh/config
+- Qdrant（向量数据库）：运行中，端口 6333（Dashboard: http://43.160.239.62:6333/dashboard）
+- LiteLLM（模型代理）：运行中，pip 安装（版本 1.82.6），端口 8000，已接入 MiniMax-M2.7-highspeed
+- MiniMax API base: https://api.minimaxi.com/v1
+- 待办：阿里云安全组开放 8000、6333 端口
+- 待办：open-webui 本地安装（镜像 6GB，拉取中）
+
+---
+
+## 待办记录
+
+### 基础设施
+- [ ] 阿里云安全组：开放 8000（LiteLLM）、6333（Qdrant）入方向 TCP
+- [ ] 验证外网访问 LiteLLM（8000 端口开完后）
+- [ ] open-webui 本地安装（镜像拉取中，完成后启动）
+
+### 商家知识库子项目
+- [ ] 500 篇商品内容导入 Qdrant
+- [ ] 知识库应用层开发（基于 Qdrant API）
+
+### 模型层
+- [ ] LiteLLM 自动路由配置（简单任务路由到便宜模型，省 token）
+- [ ] 如果需要 Azure 模型接入，补全 Azure API key
+
 ---
 
 ## 最后更新
