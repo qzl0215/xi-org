@@ -20,7 +20,8 @@
 
 **服务器 DeerFlow（影）**：
 - 位置：`/root/apps/deer-flow/`
-- Web UI：http://43.160.239.62:2026/
+- **Web UI（正式）：https://deerflow.viewtrends.store/**
+- 内部端口：2026（已绑定域名，跳过安全组）
 - API 端口：8001（内部）、2024（LangGraph）
 - 状态：✅ 运行中（4 容器）
 
