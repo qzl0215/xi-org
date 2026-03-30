@@ -38,10 +38,13 @@
 
 ### Mac DeerFlow（树）
 
-- 状态：🔄 镜像拉取中（后台）
+- 状态：✅ 已部署
 - 位置：`~/Documents/Github/deer-flow/`
-- 端口：待配置
+- Frontend：http://127.0.0.1:3030
+- Gateway：http://127.0.0.1:8001
+- 启动脚本：`~/Documents/Github/deer-flow/start-deer-flow-mac.sh`
 - 配置：MiniMax-M2.7-Highspeed（与影相同）
+- 备注：仅 Mac 本地访问，不可公网访问
 
 ### listing_factory
 - **阶段**: Phase A（页面定型）
