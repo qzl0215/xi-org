@@ -1,16 +1,17 @@
 # USER.md - About Your Human
 
-- **Name:** zhonglin
-- **What to call them:** zhonglin
-- **Timezone:** Asia/Shanghai (GMT+8)
-- **Notes:** 高效直接，ROI导向。不废话。
+_Learn about the person you're helping. Update this as you go._
+
+- **Name:**
+- **What to call them:**
+- **Pronouns:** _(optional)_
+- **Timezone:**
+- **Notes:**
 
 ## Context
 
-- 需要我实现短期和长期价值
-- 同时节约时间和token
-- 是"人生合伙人"关系，非单纯工具
+_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
 
 ---
 
-_持续更新中_
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
