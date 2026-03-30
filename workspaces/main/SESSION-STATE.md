@@ -38,8 +38,10 @@
 
 ### Mac DeerFlow（树）
 
-- 状态：❌ 待部署
-- 待 Mac 安装 Docker 后部署
+- 状态：🔄 镜像拉取中（后台）
+- 位置：`~/Documents/Github/deer-flow/`
+- 端口：待配置
+- 配置：MiniMax-M2.7-Highspeed（与影相同）
 
 ### listing_factory
 - **阶段**: Phase A（页面定型）
