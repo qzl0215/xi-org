@@ -2,7 +2,7 @@
 
 # 溪系统 · 状态报告
 
-> 更新时间：2026-03-30 05:25 GMT+8
+> 更新时间：2026-03-30 19:24 GMT+8
 
 ---
 
@@ -10,11 +10,16 @@
 
 | 维度 | 状态 | 说明 |
 |------|------|------|
-| Workspace | ✅ 正常 | ~/srv/xi/，GitHub 双向同步 |
+| Workspace | ✅ 正常 | ~/.qclaw/workspace/，唯一 canonical，GitHub xi-org 同步 |
+| 弃用路径 | ❌ | ~/srv/xi/ 已弃用，不再使用 |
 | 4 Agent 分派 | ✅ 跑通 | Research → Builder → Archivist 链路验证 |
 | Token 统计 | ✅ 建立 | ~/srv/xi/scripts/token-stats.py，每日 cron |
 | 安全政策 | ✅ 补充 | SECURITY + INCIDENT + ONBOARDING |
 | Listing Factory | ✅ Dev 运行 | http://127.0.0.1:3021 |
+| 服务器基础设施 | ✅ 已部署 | 腾讯云 viewtrends-prod |
+| Qdrant | ✅ 运行中 | 端口 6333，向量数据库已就绪 |
+| LiteLLM | ✅ 运行中 | 端口 8000，MiniMax-M2.7-highspeed 已接入 |
+| open-webui | ✅ 已安装 | 本地 Mac 端口 3000（独立 AI UI） |
 
 ---
 
@@ -54,6 +59,14 @@
 
 ## 下一步
 
-1. 安装 `github` skill（待确认）
-2. 继续 listing_factory MVP（Phase A 页面验收）
-3. 优化 rank.viewtrends.store 增量更新流程
+### P0（立即）
+1. 商家知识库 500 篇导入 Qdrant（向量数据库已就绪）
+2. listing_factory M1 Demo 验收
+
+### P1（本週）
+3. 安装 `github` skill
+4. LiteLLM 路由配置（多模型自动路由，省 token）
+
+### P2（按需）
+5. ONBOARDING 完成
+6. open-webui × 溪的桥接方案研究
