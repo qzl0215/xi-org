@@ -47,6 +47,15 @@
 
 ---
 
+## 架构决策记录
+
+### 2026-03-30：workspace 合并
+- `~/.qclaw/workspace/` 是溪唯一 canonical workspace，已与 GitHub xi-org 同步
+- `~/srv/xi/` 完全弃用，不再使用
+- 合并后结构：根目录保留溪核心文件（SOUL.md、AGENTS.md 等），workspaces/main/ 是主 workspace，shared/ 是共享资产
+
+---
+
 ## 最后更新
 
-- YYYY-MM-DD
+- 2026-03-30
