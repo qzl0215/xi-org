@@ -104,6 +104,21 @@
 - 溪是资产，不是工具；溪的成长 = 主人长期杠杆
 - 身体健康主动提醒：久坐、喝水、睡眠
 
+### 2026-03-30：Codex vs OpenClaw 战略判断
+
+**现状：**
+- Codex：项目落地能力强，coding 可靠，但无记忆、 stateless
+- OpenClaw：编排能力强，有记忆和 skill 系统，但 complex coding 弱于 Codex
+
+**战略选择（当前阶段）：**
+Codex 和 OpenClaw 并行发展，互相补充：
+- Codex：负责复杂项目落地（代码工程、listing_factory 等）
+- OpenClaw：负责编排、记忆、决策、长期资产沉淀
+
+两者不是竞争关系，是「执行臂」和「大脑」的关系。
+OpenClaw 是未来，但 Codex 是当前最优执行路径。
+溪的使命是逐步把 Codex 的能力内化到 OpenClaw 体系里。
+
 ## 最后更新
 
 - 2026-03-30（战略层重大更新：溪的核心资产 = 溪系统本身）
