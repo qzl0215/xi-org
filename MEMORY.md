@@ -158,12 +158,19 @@
 - Kimi-128k（moonshot-v1-128k）✅
 - Kimi-K2-Turbo（kimi-k2-turbo-preview）✅
 - **Kimi-K2.5（kimi-k2.5）✅** ← 当前最好用的 Kimi 模型
+- **GLM-5-Turbo ✅** ← 支持流式输出，支持 thinking 推理模式
 - API Key 已安全存储在服务器 /root/litellm_config.yaml
 
 **Kimi K2.5 特点：Agent 模型，非聊天模型**
 - 支持 tool_calls（web-search、code_runner、rethink）
 - 不需要在 prompt 里描述工具，会自动判断
 - 适合：任务拆解 → 工具选择 → 自主执行 → 评估优化
+
+**GLM-5-Turbo 特点：**
+- 支持流式输出（stream: true）
+- 内置 thinking/reasoning 模式（reasoning_content 字段）
+- 通过 custom_openai 接入 LiteLLM（base_url: open.bigmodel.cn/api/paas/v4）
+- GLM API key 格式：`be1ef6eea430426692f524fc26b6964e.RPnZKHtKA3IkU8PK`
 
 ---
 
