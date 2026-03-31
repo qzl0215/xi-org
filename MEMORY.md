@@ -157,7 +157,13 @@
 - Kimi-8k（moonshot-v1-8k）✅
 - Kimi-128k（moonshot-v1-128k）✅
 - Kimi-K2-Turbo（kimi-k2-turbo-preview）✅
+- **Kimi-K2.5（kimi-k2.5）✅** ← 当前最好用的 Kimi 模型
 - API Key 已安全存储在服务器 /root/litellm_config.yaml
+
+**Kimi K2.5 特点：Agent 模型，非聊天模型**
+- 支持 tool_calls（web-search、code_runner、rethink）
+- 不需要在 prompt 里描述工具，会自动判断
+- 适合：任务拆解 → 工具选择 → 自主执行 → 评估优化
 
 ---
 
