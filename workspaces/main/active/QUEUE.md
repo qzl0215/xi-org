@@ -8,28 +8,37 @@
 
 ## P0 — 立即做
 
-- [x] 验证 workspace 切换生效
-- [x] 跑通第一次 4 Agent 分派
-- [x] 建立 token 成本基线
+- [ ] listing_factory MVP（Codex 完成后介入）
+- [ ] rank.viewtrends.store OOM 修复（等主人指令）
 
 ## P1 — 本周内
 
-- [ ] 补充子 Agent workspace 文件（memory/、active/、scratch/）
-- [ ] 创建第一张 knowledge card（溪系统架构）
-- [ ] 建立 playbook 初版（从 role.md 提炼）
-
-## P2 — 中期
-
-- [ ] 建立 knowledge/registry/ 替代关系记录
-- [ ] 补全 policies/ 缺失文件（SECURITY.md 等）
-- [ ] 建立周报模板
+- [ ] DeerFlow Skills 迁移（browser-use ✅ 已完成）
+- [ ] 溪系统 cost tracking 持续执行
+- [ ] 共享日志方案确认
 
 ---
 
-## 已完成
+## 已完成（归档）
 
-| 日期 | 任务 | 结果 |
-|------|------|------|
-| 2026-03-30 | workspace 切换 | ✅ ~/srv/xi/workspaces/main/ |
-| 2026-03-30 | 4 Agent 分派验证 | ✅ 流程跑通 |
-| 2026-03-30 | token 基线建立 | ✅ 66k total (59k in / 7k out) |
+| 日期 | 任务 |
+|------|------|
+| 2026-03-30 | workspace 切换 |
+| 2026-03-30 | 4 Agent 分派验证 |
+| 2026-03-30 | token 成本基线建立 |
+| 2026-03-30 | P0 安全政策（S/INCIDENT/ONBOARDING/COMMUNICATION） |
+| 2026-03-30 | token-stats.py + cron |
+| 2026-03-30 | github skill 安装 |
+| 2026-03-30 | proactive-agent 安装 + 整合 |
+| 2026-03-30 | Agent 命名（风/草/梦/树/影） |
+| 2026-03-30 | DeerFlow 影部署（https://deerflow.viewtrends.store/） |
+| 2026-03-30 | DeerFlow 树部署（http://127.0.0.1:3030） |
+| 2026-03-30 | browser-use skill 安装 |
+| 2026-03-31 | browser-use skill 验证（截图测试 ✅） |
+
+---
+
+## 下一步
+
+- 等 listing_factory Codex 完成后介入 MVP
+- 等 rank.viewtrends.store OOM 修复指令
