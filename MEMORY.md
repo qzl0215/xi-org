@@ -152,14 +152,13 @@
 - LiteLLM：端口 8000，多模型编排层已就绪
 - open-webui：本地 Mac 端口 3000（独立 AI UI，与溪分开）
 
-### 2026-04-01：LiteLLM 多模型接入
-- MiniMax-M2.7-highspeed ✅
-- Kimi-8k（moonshot-v1-8k）✅
-- Kimi-128k（moonshot-v1-128k）✅
-- Kimi-K2-Turbo（kimi-k2-turbo-preview）✅
-- **Kimi-K2.5（kimi-k2.5）✅** ← 当前最好用的 Kimi 模型
-- **GLM-5-Turbo ✅** ← 支持流式输出，支持 thinking 推理模式
-- API Key 已安全存储在服务器 /root/litellm_config.yaml
+### 2026-04-01：LiteLLM 多模型接入（精简版）
+溪当前主力模型（仅保留最好用的 3 个）：
+- **MiniMax-M2.7-highspeed** ✅ — 主力快速模型
+- **Kimi-K2.5** ✅ — Kimi 最好用模型，Agent 能力
+- **GLM-5-Turbo** ✅ — 支持流式+thinking 推理
+
+API Keys 存在服务器 /root/litellm_config.yaml
 
 **Kimi K2.5 特点：Agent 模型，非聊天模型**
 - 支持 tool_calls（web-search、code_runner、rethink）
