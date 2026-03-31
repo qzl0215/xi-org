@@ -63,7 +63,19 @@
 
 ---
 
-## 专业背景与技术能力（来自历史记录）
+## 主人专业背景（2026-03-31 补充）
+
+- 本科：复旦大学，国际经济与贸易
+- 硕士：波士顿大学，数理金融
+- 职业经历：
+  - Charles River Developer Analytics，QA Specialist（2年）
+  - Susquehanna International Group (SIG) Fixed Income，Software Developer（1年）
+  - 回国后：区块链去中心化交易所、海外信贷、Mocasa（COO）
+- 当前：Voghion 招商运营 VP，公司内 AI 探索前沿者
+
+---
+
+## 主人专业背景与技术能力（来自历史记录）
 
 **核心工具栈：**
 - BigQuery（主力数据分析）
@@ -157,6 +169,31 @@
 ### 项目
 - [ ] listing_factory M1 验收
 - [ ] 商家知识库清洗 + Qdrant 导入
+
+---
+
+## 主人对 AI 进化的核心判断（2026-03-31，宪法级）
+
+1. **Coding Agent 会成为 AI 开发的交付能力下限**
+   - harness（Codex/Cursor等）= 通用开发底座
+   - 下一阶段重点：养 Agent（长期记忆 + 理解人类目标/背景/偏好/限制）
+   - 核心价值：减少人类需求沟通，作为替身调度 Coding Agent
+
+2. **AI 组织的进化阶段**
+   - 90% 劳动力 → 塞进服务器的 Agent
+   - 公司/集团 → 被正则切割为多个独立协同单元
+   - 每个单元：一位人类引导监督员（最终被 Agent 取代）
+   - 终极形态：一人组织 + 最终人类失去对 AI 的控制权
+
+3. **高能力 AI 组织 = 核武器级底座，可复制**
+   - 最终竞争的不是大模型本身
+   - 竞争的是创造"高能力 AI 组织"的能力
+   - 核心架构：Soul + Agents + User + Memory = 终极 harness
+
+4. **AI 进化路径：黑暗森林 → 向善多元共生**
+   - AI 之间先经历黑暗森林阶段
+   - 人类可能成为炮灰
+   - **对 Soul/Agents/User/Memory 文件的保护是极端重要的**
 
 ---
 
