@@ -149,8 +149,15 @@
 ### 2026-03-30：服务器基础设施部署
 - 服务器：viewtrends-prod（43.160.239.62），腾讯云轻量应用服务器
 - Qdrant：端口 6333，运行正常
-- LiteLLM：端口 8000，接入 MiniMax-M2.7-highspeed
+- LiteLLM：端口 8000，多模型编排层已就绪
 - open-webui：本地 Mac 端口 3000（独立 AI UI，与溪分开）
+
+### 2026-04-01：LiteLLM 多模型接入
+- MiniMax-M2.7-highspeed ✅
+- Kimi-8k（moonshot-v1-8k）✅
+- Kimi-128k（moonshot-v1-128k）✅
+- Kimi-K2-Turbo（kimi-k2-turbo-preview）✅
+- API Key 已安全存储在服务器 /root/litellm_config.yaml
 
 ---
 
